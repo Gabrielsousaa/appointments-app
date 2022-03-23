@@ -1,0 +1,26 @@
+body {
+    background: linear-gradient(to right, rgb(255, 239, 186), rgb(255, 255, 255));
+}
+
+.vertical-center {
+    margin: 0 0 0 40%;
+}
+
+h1 card {
+    padding-left: 11.5em;
+    font-weight: 50em;
+}
+
+#spinner {
+    animation: load 0.8s infinite;
+    margin: 0 auto;
+}
+
+@keyframes load {
+    to {
+        transform: rotate(0);
+    }
+    from {
+        transform: rotate(360deg)
+    }
+}
